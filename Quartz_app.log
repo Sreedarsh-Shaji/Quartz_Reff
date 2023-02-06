@@ -1,0 +1,56 @@
+2023-02-06 11:31:37.402  INFO 20916 --- [restartedMain] c.s.t.q.QuartzTasksApplication           : Starting QuartzTasksApplication using Java 19.0.1 on L1260 with PID 20916 (D:\Work Space\quartz-tasks\target\classes started by 1402 in D:\Work Space\quartz-tasks)
+2023-02-06 11:31:37.415  INFO 20916 --- [restartedMain] c.s.t.q.QuartzTasksApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 11:31:37.507  INFO 20916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 11:31:37.508  INFO 20916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 11:31:39.386  INFO 20916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 11:31:39.400  INFO 20916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 11:31:39.400  INFO 20916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.70]
+2023-02-06 11:31:39.471  INFO 20916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 11:31:39.472  INFO 20916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1963 ms
+2023-02-06 11:31:39.708  INFO 20916 --- [restartedMain] c.s.t.q.quartz_impl.SchedulerConfig      : simpleJobTrigger
+2023-02-06 11:31:39.731  INFO 20916 --- [restartedMain] c.s.t.q.quartz_impl.SchedulerConfig      : starting jobs....
+2023-02-06 11:31:39.757  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-02-06 11:31:39.768  INFO 20916 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-02-06 11:31:39.768  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-02-06 11:31:39.769  INFO 20916 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-02-06 11:31:39.770  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'spring-boot-quartz-demo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-02-06 11:31:39.770  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'spring-boot-quartz-demo' initialized from an externally provided properties instance.
+2023-02-06 11:31:39.770  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-02-06 11:31:39.770  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.scheduled.tasks.quartztasks.quartz_impl.AutowiringSpringBeanJobFactory@b1bfadb
+2023-02-06 11:31:39.777  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2023-02-06 11:31:39.777  INFO 20916 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-02-06 11:31:39.777  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2023-02-06 11:31:39.778  INFO 20916 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2023-02-06 11:31:39.778  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'spring-boot-quartz-demo' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-02-06 11:31:39.778  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'spring-boot-quartz-demo' initialized from default resource file in Quartz package: 'quartz.properties'
+2023-02-06 11:31:39.778  INFO 20916 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2023-02-06 11:31:39.778  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED started.
+2023-02-06 11:31:39.779  INFO 20916 --- [restartedMain] c.s.t.q.q.b.demo1.QuartzTriggerSample    :  Creating Report 
+2023-02-06 11:31:40.119  INFO 20916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 11:31:40.175  INFO 20916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 11:31:40.176  INFO 20916 --- [restartedMain] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2023-02-06 11:31:40.177  INFO 20916 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED started.
+2023-02-06 11:31:40.185  INFO 20916 --- [spring-boot-quartz-demo_QuartzSchedulerThread] c.s.t.q.q.AutowiringSpringBeanJobFactory : create job instance
+2023-02-06 11:31:40.188  INFO 20916 --- [spring-boot-quartz-demo_Worker-1] c.s.t.q.service.ApiConsumeService        : Fetching fresh country data
+2023-02-06 11:31:40.189  INFO 20916 --- [restartedMain] c.s.t.q.QuartzTasksApplication           : Started QuartzTasksApplication in 3.396 seconds (JVM running for 4.139)
+2023-02-06 11:31:41.958  INFO 20916 --- [spring-boot-quartz-demo_Worker-1] c.s.t.q.service.ApiConsumeService        : Invoked Country(country=South Africa, region=Africa) 
+2023-02-06 11:31:41.961  INFO 20916 --- [spring-boot-quartz-demo_Worker-1] c.s.t.q.service.ApiConsumeService        : Fetching fresh University data
+2023-02-06 11:31:45.202  INFO 20916 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED paused.
+2023-02-06 11:31:45.220  INFO 20916 --- [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2023-02-06 11:31:45.220  INFO 20916 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED shutting down.
+2023-02-06 11:31:45.220  INFO 20916 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED paused.
+2023-02-06 11:31:45.221  INFO 20916 --- [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler spring-boot-quartz-demo_$_NON_CLUSTERED shutdown complete.
